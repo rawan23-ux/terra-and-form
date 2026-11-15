@@ -10,6 +10,19 @@ https://terra-and-form.vercel.app
 <img width="1920" height="956" alt="Screenshot (335)" src="https://github.com/user-attachments/assets/c2d71f1f-a667-4919-98a3-924773262287" />
 
 
+
+
+
+
+
+
+
+
+
+
+### Account page
+<img width="1920" height="950" alt="Screenshot (337)" src="https://github.com/user-attachments/assets/ece58056-add4-444a-a623-e222bc3ba64c" />
+
 ## How to run the project
 
 1. Install Node.js with npm.
