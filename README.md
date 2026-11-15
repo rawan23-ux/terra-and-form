@@ -5,6 +5,11 @@ Terra & Form is an architecture portfolio built with React for my CSCI426 web pr
 
 https://terra-and-form.vercel.app
 
+
+### Home page
+<img width="1920" height="956" alt="Screenshot (335)" src="https://github.com/user-attachments/assets/c2d71f1f-a667-4919-98a3-924773262287" />
+
+
 ## How to run the project
 
 1. Install Node.js with npm.
