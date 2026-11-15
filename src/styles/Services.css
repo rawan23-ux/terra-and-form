@@ -1,0 +1,43 @@
+.services-page {
+  padding: 64px 5%;
+  background-color: #f5f1e9;
+  color: #252421;
+}
+
+.services-page h1 {
+  margin: 0 0 48px;
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  line-height: 1.1;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.service-box {
+  border-top: 2px solid #656947;
+  padding-top: 20px;
+}
+
+.service-box h2 {
+  margin: 0 0 12px;
+  font-size: 1.5rem;
+}
+
+.service-box p {
+  margin: 0;
+  max-width: 38ch;
+  line-height: 1.6;
+}
+
+@media (max-width: 700px) {
+  .services-page {
+    padding: 40px 5%;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}

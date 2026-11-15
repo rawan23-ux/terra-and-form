@@ -1,0 +1,52 @@
+header {
+  background-color: #f5f0e8;
+  color: #242321;
+  padding: 60px 5%;
+  font-family: Arial, sans-serif;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 40px;
+}
+
+header .site-title {
+  margin: 0;
+  font-size: clamp(48px, 6vw, 100px);
+  line-height: 1;
+  letter-spacing: -3px;
+}
+
+header .tagline {
+  margin: 0 0 10px;
+  padding-left: 24px;
+  border-left: 3px solid #70754c;
+  font-size: 22px;
+  line-height: 1.4;
+}
+
+.hero-image {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: clamp(280px, 40vw, 650px);
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 700px) {
+  header .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header .site-title {
+    letter-spacing: -2px;
+  }
+
+  header .tagline {
+    font-size: 18px;
+  }
+}
